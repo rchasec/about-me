@@ -1,11 +1,14 @@
 import React, { Component } from 'react'
 
+
+
 export default class WorkExperiencePage extends Component {
     render = () => {
         return (
+
             <div>
                 <section>
-                    <h1>Chase's Work Experience</h1>
+                    <p>Chase's Work Experience</p>
                 </section>
                 <div>
                     <ul>
@@ -54,7 +57,7 @@ export default class WorkExperiencePage extends Component {
                     </ul>
                 </div>
                 <section>
-                    <a href="aboutme.html">Go to home</a>
+                    <a href="AboutMePage.js">Go to home</a>
                 </section>
             </div>
         )

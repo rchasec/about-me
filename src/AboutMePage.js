@@ -1,14 +1,20 @@
 import React, { Component } from 'react'
 
+ 
+
 export default class AboutMePage extends Component {
+
+    
+
     render = () => {
         return(
-            <div>
+
+            <div> 
                 <section>
                     <h1>Ryan Chase Campbell</h1>
                 </section>
                 <section>
-                    <img src="C:\Users\Chase\Desktop\Helio\projects\images for projects/pizzapic.jpg" alt="picture of chase"/>
+                    <img src="C:\Users\Chase\Desktop\Helio\projects\images for projects/pizzapic.jpg" alt="chase's face"/>
                 </section>
                 <section>
                     <h3>Bio:</h3>

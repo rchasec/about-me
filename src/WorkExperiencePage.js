@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import WorkExperienceItem from './WorkExperienceItem'
+import SiteNav from './SiteNav'
+
 
 export default class WorkExperiencePage extends Component {
     render = () => {
         return (
             <div>
+                <header>
+                    <SiteNav/>
+                </header>
                 <section>
                     <p>Chase's Work Experience</p>
                 </section>
@@ -27,9 +33,10 @@ export default class WorkExperiencePage extends Component {
                     jobTitle="Customer Service Manager/Marketing Content Designer"
                     date="September 2018 - Present"
                     jobRole1="Train and manage customer service agents"
-                    jobRole2="Design Marketing Materials"/>
+                    jobRole2="Take customer service calls"
+                    jobRole3="Design Marketing Materials"/>
                 <section>
-                    <a href="AboutMePage.js">Go to home</a>
+                    <Link to="/">Go to Home</Link>
                 </section>
             </div>
         )
